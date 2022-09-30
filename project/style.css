@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding:0;
+}
+nav{
+    height: 70px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav h4{
+    color:white;
+    padding: 10px;
+    font-size: 30px;
+    position: fixed;
+    top:15px;
+    left:120px;
+}
+.logo img{
+    width:150px;
+    position: fixed;
+    top:0;
+    left:0;
+}
+nav .dropdown img{
+    padding: 10px;
+    position: fixed;
+    top:0;
+    left:1280px;
+    transition:0.5s;
+}
+.dropdown-content{
+    background-size: 100px;
+    display:none;
+    z-index:1;
+    position:relative;
+    left:1135px;
+}
+.dropdown-content a{
+    text-decoration:none;
+    line-height:50px;
+    color:white;
+    background-color:black ;
+    display:block;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+    width:150px;
+}
+.dropdown-content a:hover{
+    background-color: darkolivegreen;
+}
+#maindiv h1{
+    font-size: 70px;
+    position:absolute;
+    left: 70%;
+    top:30%;
+    color: white;
+}
+#maindiv p{
+    font-size:20px;
+    position:absolute;
+    left:60%;
+    right:3%;
+    top:65%;
+    background-color: white;
+}
+#maindiv{
+    width: 1350px;
+    height: 645px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slider 8s infinite linear;
+}
+@keyframes slider{
+    0%{
+        background-image: url(images/2.jpg);
+    }
+    20%{
+        background-image: url(images/3.jpg);
+    }
+    40%{
+        background-image: url(images/4.jpg);
+    }
+    60%{
+        background-image: url(images/5.jpg);
+    }
+    80%{
+        background-image: url(images/6.jpg);
+}
+}
+.container{
+    display:flex;
+    height:650px;
+    width:1350px;
+    background-color: aliceblue;
+    flex-wrap:wrap;
+}
+.container>.item1 {
+    width:100%;
+    height:80px;
+    background-color: aliceblue;
+}
+.item1 h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    color: rgb(106, 137, 104);
+}
+.container>.item2{
+    height: 530px;
+    width: 45%;
+    margin-left:60px;
+}
+.item2 img{
+    width:614px;
+    height:530px;
+}
+.container>.item3{
+    height: 530px;
+    width: 45%;
+    margin-right:30px;
+    background-color: rgb(78, 86, 80);
+}
+.item3 h2{
+    color:goldenrod;
+    font-size:45px;
+    position: absolute;
+    margin: 60px 50px 0 50px;
+}
+.item3 p{
+    font-size: 20px;
+    color: goldenrod;
+    position: absolute;
+    margin: 180px 100px 0 50px;
+}
+.item3 a{
+    font-size: 18px;
+    text-decoration: none;
+    color:goldenrod;
+    position:absolute;
+    margin-top:350px;
+    margin-left: 50px;
+}
+#doing{
+    width:100%;
+    height: 650px;
+    background-color: goldenrod;
+}
+.flex{
+    display: flex;
+    height:500px;
+    width:90%;
+    background-color: white;
+    position: absolute;
+    top: 1420px;
+    left:70px;
+}
+.flex>.flex1{
+    height:500px;
+    width:615px;
+}
+.flex1>h2{
+    position:absolute;
+    top:150px;
+    left:150px;
+    font-size: 40px;
+}
+.flex1>p{
+    position: absolute;
+    top:230px;
+    left:110px;
+    margin-right:650px;
+}
+.flex1 a{
+    text-decoration: none;
+    position: absolute;
+    top:400px;
+    left: 110px;
+    color: black;
+}
+.flex>.flex2{
+    height:500px;
+    width:615px;
+}
+.flex2 img{
+    height:500px;
+    width:615px;
+}
+.info{
+    width:100%;
+    height:250px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center
+    
+}
+.info .item{
+    padding:50px 0 0 50px;
+    height: 250px;
+    width:25%;
+    background-color: #abca78;
+    align-content: center;
+}
+.info #item1>img{
+    height:150px;
+    width:150px;
+}
+.info #item1>h3{
+    font-size: 26px;
+    font-weight: bold;
+    padding:8px 0 0 26px;
+    color:white;
+}
+.info #item2>img{
+    height:150px;
+    width:150px;
+}
+.info #item2>h3{
+    font-size: 26px;
+    font-weight: bold;
+    padding:8px 0 0 26px;
+    color:white;
+}
+.info #item3>img{
+    height:150px;
+    width:150px;
+}
+.info #item3>h3{
+    font-size: 26px;
+    font-weight: bold;
+    padding:8px 0 0 30px;
+    color:white;
+}
+.info #item4>img{
+    height:150px;
+    width:190px;
+}
+.info #item4>h3{
+    font-size: 26px;
+    font-weight: bold;
+    padding:8px 0 0 45px;
+    color:white;
+}
